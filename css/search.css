@@ -1,0 +1,59 @@
+/* Basic header styling */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+main {
+  min-height: 600px;
+}
+
+/* Search form styling */
+.search-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 80%;
+  transition: width 0.4s ease-in-out;
+}
+
+.search-input:focus {
+  width: 100%; /* Expand the input when focused */
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.search-button i {
+  font-size: 16px;
+}
+
+/* Example for icon color */
+.search-button i {
+  color: transparent;
+}
+
+.search-input:focus ~ .search-button i {
+  color: black;
+}
+
+.search-button:hover i {
+  color: #000;
+}
