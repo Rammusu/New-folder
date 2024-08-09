@@ -1,0 +1,5 @@
+/* dynamic carousel height img by screen width */
+.carousel-item img {
+  height: calc(80vh - 100px);
+  object-fit: cover;
+}
