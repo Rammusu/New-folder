@@ -16,6 +16,7 @@ if (location.href.includes("index.html")) {
   // kiem tra link trang web co phai search khong, neu co thi bat su kien tim kiem theo tu khoa
   // bat su kien cho thanh search
   search_btn.onclick = async function (e) {
+    search_books.innerHTML=""
     e.preventDefault();
     if (search_input.value) {
       // neu co keyword thi moi tim
